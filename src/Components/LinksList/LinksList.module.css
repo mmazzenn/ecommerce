@@ -1,0 +1,7 @@
+.links ol {
+  margin-bottom: 0 !important;
+}
+
+.active:hover {
+  color: var(--main-color);
+}

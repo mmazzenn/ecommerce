@@ -1,0 +1,27 @@
+.mainSlider img {
+  height: 600px !important;
+}
+
+.rightImgs img {
+  height: 300px !important;
+}
+
+.mainSlider ul {
+  bottom: 20px;
+}
+
+.mainSlider ul li button:before {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .rightImgs {
+    margin-top: -5.6px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rightImgs {
+    margin-top: 0;
+  }
+}

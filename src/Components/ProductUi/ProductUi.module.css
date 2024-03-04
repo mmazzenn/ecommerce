@@ -1,0 +1,8 @@
+.productTitle {
+  line-height: 1.4;
+}
+
+.wishlistBtn:focus {
+  border: none;
+  outline: none;
+}

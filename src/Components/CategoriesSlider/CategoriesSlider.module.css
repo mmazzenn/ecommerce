@@ -1,0 +1,18 @@
+.categoriesSlider ul li button:before {
+  font-size: 12px;
+}
+
+.categoriesSlider ul {
+  bottom: -30px;
+}
+
+
+.categoryItem img {
+  height: 200px;
+}
+
+@media screen and (max-width: 300px) {
+  .categoryItem h5 {
+    font-size: 16px;
+  }
+}

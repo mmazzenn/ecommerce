@@ -1,0 +1,15 @@
+.VerifyResetCode {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .VerifyResetCode {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .VerifyResetCode {
+    width: 85%;
+  }
+}

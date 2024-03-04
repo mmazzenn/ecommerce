@@ -1,0 +1,23 @@
+.loginForm {
+  width: 50%;
+}
+
+.forgetPassword {
+  transition: 400ms all;
+}
+
+.forgetPassword:hover {
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 992px) {
+  .loginForm {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .loginForm {
+    width: 85%;
+  }
+}

@@ -1,0 +1,28 @@
+.checkoutForm {
+  width: 50%;
+}
+
+.onlinePayment {
+  font-size: 18px;
+}
+
+.onlinePayment * {
+  cursor: pointer;
+}
+
+.checkoutForm textarea {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .checkoutForm {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .checkoutForm {
+    width: 85%;
+  }
+}

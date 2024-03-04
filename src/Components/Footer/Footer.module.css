@@ -1,0 +1,47 @@
+.line {
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  width: calc(100% - 24px);
+  height: 1px;
+  background-color: #bbb;
+  position: absolute;
+  left: 12px;
+  bottom: 0;
+}
+
+.partners h5 {
+  font-size: 18px;
+}
+
+.partners img {
+  width: 80px;
+}
+
+.deliveries {
+  justify-content: flex-end
+}
+
+.deliveries h5 {
+  font-size: 18px;
+}
+
+.deliveries img {
+  width: 240px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .partners,
+  .deliveries {
+    justify-content: flex-start
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .deliveries img {
+    width: 160px;
+  }
+}
