@@ -17,7 +17,7 @@ const Checkout = () => {
   const [isOnline, setIsOnline] = useState(false);
   const { cartId, setCartItemsNumber } = useContext(CartContext);
   const api = isOnline
-    ? `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ecommerce-smoky-beta.vercel.app/`
+    ? `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ecommerce-smoky-beta.vercel.app/#/`
     : `https://ecommerce.routemisr.com/api/v1/orders/${cartId}`;
   async function orderPayment(reqBody) {
     setErrorMessage("");
